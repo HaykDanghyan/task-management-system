@@ -81,9 +81,5 @@ void signupWindow::on_signupbtn_clicked() {
         window->setWindowTitle("Task Management System");
         window->showFullScreen();
         this->hide();
-//        const std::string name = ui->nameLineEdit->text().toStdString();
-//        const std::string surname = ui->surnameLineEdit->text().toStdString();
-//        const std::string email = ui->emailLineEdit->text().toStdString();
-//        const std::string password = ui->passwordLineEdit->text().toStdString();
     }
 }
