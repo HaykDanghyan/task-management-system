@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+	background-color: #f5ebe0;
+}f</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>431</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #22223d;
+	color: #ffffff;
+	border-radius: 30px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Task Management System</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcome">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>10</y>
+      <width>1071</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #22223d;
+	color: #ffffff;
+	border-radius: 30px;
+}</string>
+    </property>
+    <property name="text">
+     <string>                  Welcome to Task Management System </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logout">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>940</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #faedcd;
+	border-radius: 20px;
+	border: 3px solid red;
+	color: #22223d;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Log Out</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="createTask">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>210</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ffedcd;
+	border-radius: 20px;
+	border: 3px solid green;
+	color: #22223d;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Create Task</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updateTask">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>300</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ffedcd;
+	border-radius: 20px;
+	border: 3px solid green;
+	color: #22223d;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Update Task</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteTask">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>390</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ffedcd;
+	border-radius: 20px;
+	border: 3px solid green;
+	color: #22223d;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Delete Task</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="createProject">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>620</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ffedcd;
+	border-radius: 20px;
+	border: 3px solid green;
+	color: #22223d;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Create Project</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="help">
+    <property name="geometry">
+     <rect>
+      <x>1680</x>
+      <y>10</y>
+      <width>231</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #22223d;
+	border-radius: 30px;
+	border: 3px solid green;
+	color: #ffffff;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+	color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updateProject">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>710</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ffedcd;
+	border-radius: 20px;
+	border: 3px solid green;
+	color: #22223d;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Update Project</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteProject">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>800</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ffedcd;
+	border-radius: 20px;
+	border: 3px solid green;
+	color: #22223d;
+}
+
+QPushButton:hover {
+	background-color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Delete Project</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="taskGroup">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>411</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>26</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #013A63;
+	color: white;
+	border: 3px solid green;
+	border-radius: 30px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Task Operations</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="projectGroup">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>411</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>26</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #013A63;
+	color: white;
+	border: 3px solid green;
+	border-radius: 30px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Project Operations</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <zorder>projectGroup</zorder>
+   <zorder>taskGroup</zorder>
+   <zorder>title</zorder>
+   <zorder>welcome</zorder>
+   <zorder>logout</zorder>
+   <zorder>createTask</zorder>
+   <zorder>updateTask</zorder>
+   <zorder>deleteTask</zorder>
+   <zorder>createProject</zorder>
+   <zorder>help</zorder>
+   <zorder>updateProject</zorder>
+   <zorder>deleteProject</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

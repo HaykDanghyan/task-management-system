@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpWindow</class>
+ <widget class="QMainWindow" name="helpWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>651</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background-color: #f5ebe0;
+	color: #22223d;
+	border: 3px solid green;
+	border-radius: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Task Management System Help Guide</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txt1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>841</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #22223d;
+}</string>
+    </property>
+    <property name="text">
+     <string>This is a Task Management System application</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txt2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>891</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #22223d;
+}</string>
+    </property>
+    <property name="text">
+     <string> which can help you to organize your projects </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txt3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>230</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #22223d;
+}</string>
+    </property>
+    <property name="text">
+     <string>and tasks.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txt4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>210</y>
+      <width>471</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #22223d;
+}</string>
+    </property>
+    <property name="text">
+     <string>It has a very simple interface ,</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txt5">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>240</y>
+      <width>601</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #22223d;
+}</string>
+    </property>
+    <property name="text">
+     <string>which is very easy to understand</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picture">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>360</y>
+      <width>721</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
